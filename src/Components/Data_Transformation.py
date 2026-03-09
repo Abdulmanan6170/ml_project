@@ -17,7 +17,7 @@ from src.utils import evaluate_models
 
 @dataclass
 class DataTransformationConfig:
-    preprocessor_obj_file_path=os.path.join('artifacts',"proprocessor.pkl")
+    preprocessor_obj_file_path=os.path.join("artifacts", "preprocessor.pkl")
 
 class DataTransformation:
     def __init__(self):
